@@ -1,0 +1,21 @@
+.loader-wrapper {
+  background: transparent;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #ffe0f0;
+  border-top-color: #ff85b3;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  box-shadow: 0 0 10px #ffc0cb80;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

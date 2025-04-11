@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { useRoutes } from "react-router-dom";
+import UserRoute from "./routes/index";
+import AnimatedDash from "./components/animations/AnimatedDash";
 
 function App() {
+  let routing = useRoutes(UserRoute.routes());
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React 123
-        </a>
-      </header>
+    <div className="app-container" >
+      <div className="animated-background">
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <AnimatedDash />
+      </div>
+      {routing}
     </div>
   );
 }
