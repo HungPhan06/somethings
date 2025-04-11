@@ -6,7 +6,7 @@ export default function LandingPage() {
     return (
         <main className="content-container container">
             <header>
-                <h1 className="display-4 fw-bold mb-3">
+                <h1 className="display-4 fw-bold mb-3 tech-gradient-text">
                     You Have Unique UI Ideas
                 </h1>
                 <p className="lead mb-4">
@@ -24,7 +24,7 @@ export default function LandingPage() {
             </section>
 
             <figure className="mt-5 d-none d-md-block">
-                <img src={uicase} alt="UI Showcase" loading="lazy" className="ui-case-image"/>
+                <img src={uicase} alt="UI Showcase" loading="lazy" className="ui-case-image" />
                 <figcaption className="mt-2 text-muted">
                     Some UI designs that have been realized from community ideas
                 </figcaption>
