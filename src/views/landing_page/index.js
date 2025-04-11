@@ -18,9 +18,9 @@ export default function LandingPage() {
             <h5 className="fw-bold mb-3">Let's turn your UI Ideas into Reality</h5>
 
             <section>
-                <a href="#" className="btn btn-primary btn-lg px-4">
+                <button className="btn btn-primary btn-lg px-4">
                     Submit Your Idea Now
-                </a>
+                </button>
             </section>
 
             <figure className="mt-5 d-none d-md-block">
