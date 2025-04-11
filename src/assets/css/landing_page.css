@@ -1,0 +1,31 @@
+.landing-page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #1a1a2e;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  padding: 2rem 0;
+}
+
+.content-container {
+  z-index: 2;
+  max-width: 700px;
+}
+
+.btn-primary {
+  background-color: #ff7eb9;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #ff65a3;
+}
+
+.ui-case-image {
+  max-width: 260px;
+  max-height: 260px;
+}
